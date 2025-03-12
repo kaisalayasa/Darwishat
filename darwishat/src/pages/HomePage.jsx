@@ -14,10 +14,7 @@ function HomePage() {
 
       <div className={styles.image_container}> 
         <div className={styles.card_container}>
-          {/* Clicking this card will navigate to the PoemPage */}
           <Card info="Poem of the Day" image={darwish_podem} route="/poem" />
-          
-          {/* Clicking this card will navigate to the BoardPage */}
           <Card info="Darwishat Board" image={darwishdark} route="/board" />
         </div>
       </div>
