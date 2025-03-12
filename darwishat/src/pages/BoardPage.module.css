@@ -28,7 +28,7 @@
 
 .input_container {
   align-self: center;
-  margin-top: auto; /* Pushes the input container to the bottom */
+  margin-top: auto; 
   margin-bottom: 10px;
   background-color: black;
   border-top-left-radius: 10px;
