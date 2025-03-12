@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import styles from './Card.module.css';
 
 function Card(props) {
-  const navigate = useNavigate(); // Hook for navigation
+  const navigate = useNavigate(); 
 
   return (
     <div 
@@ -12,9 +12,9 @@ function Card(props) {
         backgroundImage: `url(${props.image})`, 
         backgroundSize: 'cover',
         backgroundPosition: 'center',
-        cursor: 'pointer' // Make it look clickable
+        cursor: 'pointer' 
       }}
-      onClick={() => navigate(props.route)} // Navigate to the given route on click
+      onClick={() => navigate(props.route)}
     >
       <div>
         <div className={styles.background}>
