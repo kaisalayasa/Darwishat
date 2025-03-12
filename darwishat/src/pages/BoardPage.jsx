@@ -6,7 +6,7 @@ function BoardPage() {
   const [userInput, setUserInput] = useState('');
   const [poems, setPoems] = useState([]);
 
-  // Load poems from local storage on component mount
+ 
   useEffect(() => {
     const savedPoems = JSON.parse(localStorage.getItem('poems')) || [];
     setPoems(savedPoems);
@@ -20,7 +20,7 @@ function BoardPage() {
     if (userInput.trim() !== '') {
       const updatedPoems = [...poems, userInput];
       setPoems(updatedPoems);
-      localStorage.setItem('poems', JSON.stringify(updatedPoems)); // Save to local storage
+      localStorage.setItem('poems', JSON.stringify(updatedPoems)); 
       setUserInput('');
     }
   };
@@ -28,7 +28,7 @@ function BoardPage() {
   const deletePoem = (index) => {
     const updatedPoems = poems.filter((_, i) => i !== index);
     setPoems(updatedPoems);
-    localStorage.setItem('poems', JSON.stringify(updatedPoems)); // Update local storage
+    localStorage.setItem('poems', JSON.stringify(updatedPoems)); 
   };
 
   return (
