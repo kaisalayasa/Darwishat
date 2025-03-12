@@ -1,0 +1,17 @@
+body{
+    overflow: hidden;
+}
+.main{
+    text-align: center;
+    color: white;
+}
+.card_container {
+    margin-top: 30px;
+    background-color: #333533;
+    height: 400px;
+    display: flex;
+    flex-direction: row; /* or column if you want a vertical layout */
+    justify-content: center;
+    align-items: center;
+    column-gap: 40px;
+}
