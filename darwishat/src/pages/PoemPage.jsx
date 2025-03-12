@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import styles from './PoemPage.module.css'; // Import CSS module
+import styles from './PoemPage.module.css'; 
 
 function PoemPage() {
   const [fetchedPoem, setFetchedPoem] = useState(null);
