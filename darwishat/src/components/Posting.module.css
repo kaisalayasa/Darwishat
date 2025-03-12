@@ -26,9 +26,9 @@
 }
 
 .delete_btn {
-  background-color: #333; /* Dark Grey */
+  background-color: #333; 
   color: white;
-  border: 1px solid #000; /* Black Border */
+  border: 1px solid #000; 
   padding: 6px 12px;
   border-radius: 4px;
   font-size: 14px;
@@ -39,12 +39,12 @@
 }
 
 .delete_btn:hover {
-  background-color: #000; /* Black on Hover */
-  color: #fff; /* White Text */
+  background-color: #000; 
+  color: #fff; 
   transform: scale(1.05);
 }
 
 .delete_btn:active {
-  background-color: #222; /* Slightly Lighter Black */
+  background-color: #222;
   transform: scale(0.95);
 }
