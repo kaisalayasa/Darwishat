@@ -1,6 +1,6 @@
-/* General styles */
+
 .poem_container {
-  background-color: rgb(204, 203, 203); /* Light grey background */
+  background-color: rgb(204, 203, 203);
   padding: 20px;
   max-width: 600px;
   margin: 40px auto;
@@ -9,26 +9,26 @@
   text-align: center;
 }
 
-/* Title */
+
 .poem_title {
   font-size: 24px;
   font-weight: bold;
-  color: #000; /* Black */
+  color: #000;
   margin-bottom: 10px;
 }
 
-/* Author */
+
 .poem_author {
   font-size: 18px;
-  color: #333; /* Dark grey */
+  color: #333; 
   font-style: italic;
   margin-bottom: 15px;
 }
 
-/* Poem text */
+
 .poem_text {
-  background-color: #f5f5f5; /* Light grey */
-  color: #000; /* Black */
+  background-color: #f5f5f5;
+  color: #000; 
   font-size: 16px;
   line-height: 1.6;
   padding: 15px;
@@ -38,14 +38,14 @@
   box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Loading text */
+
 .loading_text {
   font-size: 18px;
   font-weight: bold;
-  color: #666; /* Medium grey */
+  color: #666; 
 }
 
-/* Responsive design */
+
 @media (max-width: 768px) {
   .poem_container {
     max-width: 90%;
